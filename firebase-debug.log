@@ -1,0 +1,333 @@
+[debug] [2018-03-19T13:39:09.251Z] ----------------------------------------------------------------------
+[debug] [2018-03-19T13:39:09.253Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-03-19T13:39:09.253Z] CLI Version:   3.17.6
+[debug] [2018-03-19T13:39:09.253Z] Platform:      linux
+[debug] [2018-03-19T13:39:09.253Z] Node Version:  v8.9.3
+[debug] [2018-03-19T13:39:09.253Z] Time:          Mon Mar 19 2018 15:39:09 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:09.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-19T13:39:09.265Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-19T13:39:09.265Z] > authorizing via signed-in user
+[debug] [2018-03-19T13:39:09.266Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-19T13:39:09.267Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 19 2018 15:39:09 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:09.439Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-19T13:39:09.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Mon Mar 19 2018 15:39:09 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:10.281Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-19T13:39:10.283Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Mon Mar 19 2018 15:39:10 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:11.553Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-19T13:39:11.556Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Mon Mar 19 2018 15:39:11 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:12.809Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-03-19T13:39:12.820Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Mon Mar 19 2018 15:39:12 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:13.585Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-03-19T13:39:13.636Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Mon Mar 19 2018 15:39:13 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:14.341Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-03-19T13:39:14.349Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Mon Mar 19 2018 15:39:14 GMT+0200 (EET)
+[debug] [2018-03-19T13:39:14.956Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5008
+
+[debug] [2018-03-23T07:53:53.335Z] ----------------------------------------------------------------------
+[debug] [2018-03-23T07:53:53.337Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-03-23T07:53:53.337Z] CLI Version:   3.17.6
+[debug] [2018-03-23T07:53:53.337Z] Platform:      linux
+[debug] [2018-03-23T07:53:53.337Z] Node Version:  v8.9.3
+[debug] [2018-03-23T07:53:53.337Z] Time:          Fri Mar 23 2018 09:53:53 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:53.337Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-23T07:53:53.351Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-23T07:53:53.351Z] > authorizing via signed-in user
+[debug] [2018-03-23T07:53:53.353Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-23T07:53:53.353Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Mar 23 2018 09:53:53 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:53.561Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T07:53:53.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Fri Mar 23 2018 09:53:53 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:54.361Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T07:53:54.362Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Fri Mar 23 2018 09:53:54 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:55.318Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T07:53:55.321Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Fri Mar 23 2018 09:53:55 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:56.280Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-03-23T07:53:56.284Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Fri Mar 23 2018 09:53:56 GMT+0200 (EET)
+[debug] [2018-03-23T07:53:56.853Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-28T07:23:02.783Z] ----------------------------------------------------------------------
+[debug] [2018-03-28T07:23:02.786Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase init
+[debug] [2018-03-28T07:23:02.786Z] CLI Version:   3.17.6
+[debug] [2018-03-28T07:23:02.786Z] Platform:      linux
+[debug] [2018-03-28T07:23:02.786Z] Node Version:  v8.9.3
+[debug] [2018-03-28T07:23:02.786Z] Time:          Wed Mar 28 2018 10:23:02 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:02.786Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-28T07:23:02.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-28T07:23:02.801Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /var/www/html/event_gallery
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2018-03-28T07:23:11.229Z] ----------------------------------------------------------------------
+[debug] [2018-03-28T07:23:11.231Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-03-28T07:23:11.231Z] CLI Version:   3.17.6
+[debug] [2018-03-28T07:23:11.231Z] Platform:      linux
+[debug] [2018-03-28T07:23:11.231Z] Node Version:  v8.9.3
+[debug] [2018-03-28T07:23:11.231Z] Time:          Wed Mar 28 2018 10:23:11 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:11.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-28T07:23:11.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-28T07:23:11.241Z] > authorizing via signed-in user
+[debug] [2018-03-28T07:23:11.243Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-28T07:23:11.243Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Mar 28 2018 10:23:11 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:11.401Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T07:23:11.405Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Wed Mar 28 2018 10:23:11 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:12.409Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T07:23:12.410Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Wed Mar 28 2018 10:23:12 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:13.452Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T07:23:13.452Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Wed Mar 28 2018 10:23:13 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:14.373Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-03-28T07:23:14.375Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Wed Mar 28 2018 10:23:14 GMT+0300 (EEST)
+[debug] [2018-03-28T07:23:14.990Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-28T09:35:24.284Z] ----------------------------------------------------------------------
+[debug] [2018-03-28T09:35:24.287Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-03-28T09:35:24.288Z] CLI Version:   3.17.7
+[debug] [2018-03-28T09:35:24.288Z] Platform:      linux
+[debug] [2018-03-28T09:35:24.288Z] Node Version:  v8.9.3
+[debug] [2018-03-28T09:35:24.288Z] Time:          Wed Mar 28 2018 12:35:24 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:24.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-28T09:35:24.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-28T09:35:24.298Z] > authorizing via signed-in user
+[debug] [2018-03-28T09:35:24.299Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-28T09:35:24.300Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Mar 28 2018 12:35:24 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:24.455Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T09:35:24.462Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Wed Mar 28 2018 12:35:24 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:25.407Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T09:35:25.409Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Wed Mar 28 2018 12:35:25 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:26.363Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-28T09:35:26.366Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Wed Mar 28 2018 12:35:26 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:27.301Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-03-28T09:35:27.309Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Wed Mar 28 2018 12:35:27 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:28.001Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-03-28T09:35:28.018Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Wed Mar 28 2018 12:35:28 GMT+0300 (EEST)
+[debug] [2018-03-28T09:35:28.447Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+
+[debug] [2018-04-03T08:53:41.031Z] ----------------------------------------------------------------------
+[debug] [2018-04-03T08:53:41.035Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-04-03T08:53:41.035Z] CLI Version:   3.17.7
+[debug] [2018-04-03T08:53:41.035Z] Platform:      linux
+[debug] [2018-04-03T08:53:41.035Z] Node Version:  v8.9.3
+[debug] [2018-04-03T08:53:41.035Z] Time:          Tue Apr 03 2018 11:53:41 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:41.035Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-03T08:53:41.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-03T08:53:41.054Z] > authorizing via signed-in user
+[debug] [2018-04-03T08:53:41.056Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-03T08:53:41.056Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 03 2018 11:53:41 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:41.219Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T08:53:41.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Tue Apr 03 2018 11:53:41 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:42.000Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T08:53:42.001Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Tue Apr 03 2018 11:53:42 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:42.976Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T08:53:42.978Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Tue Apr 03 2018 11:53:42 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:43.935Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-04-03T08:53:43.954Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Tue Apr 03 2018 11:53:43 GMT+0300 (EEST)
+[debug] [2018-04-03T08:53:44.843Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-09T11:20:08.278Z] ----------------------------------------------------------------------
+[debug] [2018-04-09T11:20:08.282Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-04-09T11:20:08.283Z] CLI Version:   3.17.7
+[debug] [2018-04-09T11:20:08.283Z] Platform:      linux
+[debug] [2018-04-09T11:20:08.283Z] Node Version:  v8.9.3
+[debug] [2018-04-09T11:20:08.283Z] Time:          Mon Apr 09 2018 14:20:08 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:08.283Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-09T11:20:08.299Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-09T11:20:08.299Z] > authorizing via signed-in user
+[debug] [2018-04-09T11:20:08.303Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-09T11:20:08.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 09 2018 14:20:08 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:08.453Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-09T11:20:08.463Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Mon Apr 09 2018 14:20:08 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:09.455Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-09T11:20:09.456Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Mon Apr 09 2018 14:20:09 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:10.377Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-09T11:20:10.379Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Mon Apr 09 2018 14:20:10 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:11.418Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-04-09T11:20:11.423Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Mon Apr 09 2018 14:20:11 GMT+0300 (EEST)
+[debug] [2018-04-09T11:20:12.118Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-10T13:54:05.620Z] ----------------------------------------------------------------------
+[debug] [2018-04-10T13:54:05.622Z] Command:       /home/sergejs/.nvm/versions/node/v8.9.3/bin/node /home/sergejs/.nvm/versions/node/v8.9.3/bin/firebase serve
+[debug] [2018-04-10T13:54:05.622Z] CLI Version:   3.17.7
+[debug] [2018-04-10T13:54:05.622Z] Platform:      linux
+[debug] [2018-04-10T13:54:05.622Z] Node Version:  v8.9.3
+[debug] [2018-04-10T13:54:05.622Z] Time:          Tue Apr 10 2018 16:54:05 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:05.622Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-10T13:54:05.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-10T13:54:05.634Z] > authorizing via signed-in user
+[debug] [2018-04-10T13:54:05.636Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-10T13:54:05.636Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sxXzM5ZyzzVJLjficzaEGIQv-m_7gSRnZqRD2MVIgNQ4oLtkv2YsDnMcSpZwlTHc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Apr 10 2018 16:54:05 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:05.800Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T13:54:05.808Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/event-gallery-c8aff  
+  
+ Tue Apr 10 2018 16:54:05 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:06.694Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T13:54:06.697Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/event-gallery-c8aff/tokens  
+  
+ Tue Apr 10 2018 16:54:06 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:07.550Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-10T13:54:07.554Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/event-gallery-c8aff  
+  
+ Tue Apr 10 2018 16:54:07 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:08.575Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/var/www/html/event_gallery'...
+[info] 
+[debug] [2018-04-10T13:54:08.582Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Tue Apr 10 2018 16:54:08 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:09.192Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-10T13:54:09.240Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/244494251095/clients/_:getWebAppConfig  
+  
+ Tue Apr 10 2018 16:54:09 GMT+0300 (EEST)
+[debug] [2018-04-10T13:54:09.701Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+
